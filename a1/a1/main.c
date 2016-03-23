@@ -13,7 +13,7 @@ int main(int argc, const char * argv[]) {
     int a;
     printf("输入一个整数：");
     scanf("%d",&a);
-    printf("%d",a);
+    printf("%d",a++);
     
     return 0;
 }
